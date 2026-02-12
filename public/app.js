@@ -237,7 +237,7 @@
     u7: [''],
     u8: [''],
     u9: [''],
-    u10:['assef', 'sorry', 'اسف', 'asef', 'samehni','samehny', 'same7ni', 'same7ny', 'سامحني'],
+    u10:['assef', 'sorry', 'اسف', ' آسف', 'أسف','asef', 'samehni','samehny', 'same7ni', 'same7ny', 'سامحني'],
     u11: [''],
     u12: [''],
     u13:['nenzel','mostafa','ne5rog','net2abel','n5rog','nt2abel','nt2abl','nnzel','نزل','نخرج','نتقابل','نروح','مصطفى', 'tenzel', 'تنزل','tenzl','nnzl'],
@@ -721,7 +721,7 @@
         const msg = {
           id: cryptoRandomId(),
           dir: 'in',
-          text: 'عميلنا العزيز \n في انتظارك بامام المتحف Greco roman',
+          text: 'عميلنا العزيز \n Greco roman في انتظارك امام المتحف' ,
           time: Date.now(),
         };
         conversations[contactId].push(msg);
